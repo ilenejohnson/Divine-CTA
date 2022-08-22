@@ -1,0 +1,53 @@
+{
+	"$schema": "https://schemas.wp.org/trunk/block.json",
+	"apiVersion": 2,
+	"name": "divine-blocks/divine-cta",
+	"version": "0.1.0",
+	"title": "Divine Cta",
+	"category": "widgets",
+	"icon": "superhero",
+	"description": "Call to Action block – build step required.",
+	"supports": {
+		"html": false,
+		"align": [ "wide", "full" ]
+	},
+	"attributes": {
+		"ctaTitle": {
+			"type": "string",
+			"source": "html",
+			"selector": ".cta-title"
+		  },
+
+		  "ctaUrl": {
+			"type": "string",
+			"source": "attribute",
+			"selector": ".divine-cta a",
+			"attribute": "href",
+			"default": ""
+		  },
+		  "alignment": {
+            "type": "string",
+            "default": "none"
+        },
+
+        "text_color": { "type": "string", "default": "#000000" },
+		"font_size":{"type":"integer"},
+		"overlay_color": { "type": "string", "default": "#ABB8C3" },
+		"overlay_opacity": { "type": "number", "default": 0.5 },
+		"arrow_color": { "type": "string", "default": "#000000" },
+		"button_bg_color": { "type": "string", "default": "#ffffff" },
+		"background_image": { "type": "string","default":null },
+		"border_style":{"type": "string", "default": "solid"},
+		"border_radius":{"type": "number","default": 3},
+		"border_width":{"type": "number","default": 0},
+		"border_color":{"type": "string", "default": "#000000"},
+		"text_transform":{"type":"string","default":"none"},
+		"letter_spacing":{"type":"number","default":0}
+
+
+	},
+	"textdomain": "divine-cta",
+	"editorScript": "file:./index.js",
+	"editorStyle": "file:./index.css",
+	"style": "file:./style-index.css"
+}

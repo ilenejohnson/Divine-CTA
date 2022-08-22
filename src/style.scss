@@ -1,0 +1,47 @@
+/**
+ * The following styles get applied both on the front of your site
+ * and in the editor.
+ *
+ * Replace them with your own styles or remove the file completely.
+ */
+
+.wp-block-create-block-divine-cta {
+  padding: 2px;
+
+}
+.cta-title {
+	margin-top: 80%;
+	margin-left: 1em;
+	margin-right: 1em;
+	position: relative;
+	z-index: 100;
+}
+.divine-cta {
+  text-align: right;
+}
+.divine-cta a:before {
+  content: "▶";
+}
+.divine-cta a {
+  position: relative;
+  z-index: 100;
+  text-decoration: none !important;
+
+  display: inline-block;
+  margin: 10px 0.75em -3px -3px;
+  padding: 0.25em 0.85em 0.1em 1.25em;
+
+  font-size: 0.8em;
+  line-height: 2.6em;
+
+  border-radius: 50%;
+  border: 3px solid #000000;
+}
+/*
+.overlay_class:hover
+{
+
+z-index:119 !important;
+opacity: 1 !important;
+}
+*/

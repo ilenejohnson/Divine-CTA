@@ -1,0 +1,38 @@
+/**
+ * The following styles get applied inside the editor only.
+ *
+ * Replace them with your own styles or remove the file completely.
+ */
+
+.wp-block-create-block-divine-cta {
+  
+
+  .cta-title {
+    border: 1px dashed #000000;
+    position: relative;
+    z-index: 100;
+  }
+}
+#divine-controls {
+  padding-left: 0.5em;
+  padding-right: 2em;
+}
+.divine-cta {
+  text-align: right;
+}
+
+.cta-url {
+  margin-right: 1em !important;
+  border: 2px solid white;
+}
+.cta-dropdown__input {
+  padding: 8px 8px 0;
+  color: white;
+}
+.cta-logo__button {
+  position: absolute;
+
+  left: 4px;
+  background-color: hsla(0, 0%, 100%, 1);
+  border: 1px solid grey;
+}
